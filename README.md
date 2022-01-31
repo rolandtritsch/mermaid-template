@@ -15,7 +15,6 @@ C-->D
 
 ```mermaid
 sequenceDiagram
-autonumber
     Alice ->> John: Hello John, how are you?
     loop Healthcheck
         John ->> John: Fight against hypochondria
