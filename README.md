@@ -1,29 +1,32 @@
-# Showing all available mermaid graphs/capabilities
+# Showing all available mermaid graphs
 
 ## Block Diagram
 
 ```mermaid
 graph TD
 
-A-->B
-A-->C
-B-->D
-C-->D
+A --> B
+A --> C
+B --> D
+C --> D
 ```
 
 ## Sequence Diagram
 
 ```mermaid
 sequenceDiagram
-    Alice ->> John: Hello John, how are you?
-    loop Healthcheck
-        John ->> John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John -->> Alice: Great!
-    John ->> Bob: How about you?
-    Bob -->> John: Jolly good!
+
+Alice ->> John: Hello John, how are you?
+loop Healthcheck
+    John ->> John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John -->> Alice: Great!
+John ->> Bob: How about you?
+Bob -->> John: Jolly good!
 ```
+
+Note: `autonumber` will be supported soon.
 
 ## Flow Chart
 
